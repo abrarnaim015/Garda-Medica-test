@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+	<title>Frontend Coding Test</title>
+	<link type="text/css" rel="stylesheet" href="../css/style.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<style type="text/css">
+		.picture {
+			background-color: #F9F9F9;
+			border: 1px solid #CCCCCC; padding: 3px;
+			text-align: center;
+			margin: 0 0 18px 0;
+			width: 647px;
+			color: #000;
+		}
+		
+		.picture img {
+			border: 1px solid #CCCCCC;
+			vertical-align:middle; margin-bottom: 3px;
+		}
+
+		p {
+			color: white;
+		}
+	</style>
+</head>
+<body>	
+	<div id="headwrap">
+		<div class="head">
+			<div class="logo">PT Karya Garda Medica</div>
+		</div>
+	</div>
+	<div id="content">
+		<h1><span class="red">Pop</span> Up</h1>
+		<p>Buatlah tampilan popup jika mengklik ketiga button tersebut</p>
+		<p>Sudah disediakan data-toggle dan data-target</p>
+		<p>Isi dari pop up bebas, yang saya inginkan adalah tampilan popup dan ketiganya bebrbentuk beda apakah flip, zoom in dsb</p>
+
+		<p>
+			<!-- <div class="boxs-body">
+				<button class="btn btn-outline-primary btn-default text-light" data-toggle="modal" data-target="#myModal">Open me!</button>
+				<button class="btn btn-outline-primary btn-default text-light" data-toggle="modal" data-target="#myModal2">Large modal</button>
+				<button class="btn btn-outline-primary btn-default text-light" data-toggle="modal" data-target="#myModal3">Small modal</button>
+			</div> -->
+
+
+		<hr/>
+
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-outline-primary text-light" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+			Open me!
+		</button>
+		<button type="button" class="btn btn-outline-primary text-light" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+			Large modal
+		</button>
+		<button type="button" class="btn btn-outline-primary text-light" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+			Small modal
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Modal 1</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium rem culpa aliquid atque facere provident dolore eius reprehenderit libero deserunt minus ratione explicabo voluptatum, reiciendis cupiditate, fugit, quis odio.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 2-->
+		<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Modal 2</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium rem culpa aliquid atque facere provident dolore eius reprehenderit libero deserunt minus ratione explicabo voluptatum, reiciendis cupiditate, fugit, quis odio.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal 3-->
+		<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Modal 3</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium rem culpa aliquid atque facere provident dolore eius reprehenderit libero deserunt minus ratione explicabo voluptatum, reiciendis cupiditate, fugit, quis odio.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>

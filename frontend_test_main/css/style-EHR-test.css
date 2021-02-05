@@ -1,0 +1,184 @@
+
+ * {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed; 
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background-color: rgb(4,41,96); 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  font-size: 10px;
+  color: rgb(122,127,130);
+  display: block;
+}
+
+.sidenav i {
+  font-size: 35px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px;
+  padding: 0px 10px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.rawatJln {
+  width: 70%;
+}
+
+.bioData {
+  background-color: rgb(217,227,241);
+  border-radius: 10px;
+}
+
+.navData {
+  background-color: rgb(127,127,127);
+  color: rgb(7,43,101);
+  border-radius: 5px;
+}
+
+.navData:hover {
+  background-color: rgb(247,234,69);
+}
+
+.riwayat {
+  width: 250px;
+}
+
+.riwayat a {
+  text-decoration: none;
+  color: rgb(133,141,143);
+  font-size: 15px;
+}
+
+.riwayat a:hover {
+  text-decoration: underline;
+  color: rgb(4,41,96);
+}
+
+.circle {
+  width: 30px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: rgb(7,43,101);
+}
+
+.circleD {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: white;
+  margin-left: 2.5px;
+}
+
+/* .timeLine {
+  height: 10px;
+  width: 10000px;
+  background-color: rgb(173,173,168);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+} */
+
+.navDataLuar {
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  height: 450px;
+}
+
+.navDataDlm {
+  background-color: white;
+  border-radius: 10px;
+  color: rgb(133,141,143);
+}
+
+.navDataDlm:hover {
+  background-color: rgb(244,233,56);
+  color: rgb(4,41,96);
+}
+
+.dataIntiPaien {
+  height: 450px;
+}
+
+
+.notification {
+  /* background-color: #555; */
+  /* color: white; */
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+.notification1 {
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification1:hover {
+  background: yellow;
+  color: red;
+}
+
+.notification1 .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: yellow;
+  color: red;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */
