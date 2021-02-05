@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="../css/style-EHR-test.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/10e26d99ac.js" crossorigin="anonymous"></script>
+  <title>EHT Test</title>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <!-- Side navigation -->
+  <div class="sidenav text-center">
+    <a href="../index.html"><i class="fas fa-home"></i><br>HOME</a>
+    <a href="#"><i class="fas fa-home"></i><br>ANTRIAN</a>
+    <a href="#"><i class="fas fa-ambulance"></i><br>REGIS</a>
+    <a href="#"><i class="fas fa-stethoscope"></i><br>RAJAL</a>
+    <a href="#"><i class="fas fa-chart-line"></i><br>REKMED</a>
+    <a href="#"><i class="fas fa-notes-medical"></i><br>FARMASI</a>
+    <a href="#"><i class="fas fa-chart-line"></i><br>RADIOLOGI</a>
+    <a href="#"><i class="fas fa-flask"></i><br>LAB</a>
+    <a href="#"><i class="fas fa-file-invoice-dollar"></i><br>KASIR</a>
+    <a href="#"><i class="fas fa-laptop-house"></i><br>SEKRE</a>
+
+  </div>
+
+  <!-- Page content -->
+  <div class="main">
+    <!--rawat jalan  -->
+    <div class="d-flex mt-2">
+      <button class="btn btn-outline-dark"><i class="fas fa-redo-alt"></i></button>
+      <div class="rawatJln mx-2 d-flex">
+        <!-- <p class="m-0 p-2">RAWAT JALAN</p> -->
+        <input style="border-color: black;" type="text" class="form-control" value="RAWAT JALAN">
+        <button class="btn btn-outline-dark"><i class="fas fa-search p-2"></i></button>
+      </div>
+      <div class=" mx-2 d-flex">
+        <input style="border-color: black;" type="text" class="form-control" value="" placeholder="Search...">
+        <button class="btn btn-outline-dark"><i class="fas fa-search p-2"></i></button>
+      </div>
+    </div>
+
+    <!-- Bio data -->
+    <div class="d-flex my-2 p-2 justify-content-evenly">
+      <div class="d-flex bioData mx-2 p-1">
+        <div class="py-3 px-2"><i style="font-size: 30px;" class="fas fa-venus"></i></div>
+        <div class="text-center">
+          <small class="m-0">Nama (USIA)</small>
+          <h4>NY. MARIANA (23)</h4>
+        </div>
+      </div>
+      <div class=" mx-2 bioData p-2">
+        <div class="text-center">
+          <small class="m-0">TANGGAL LAHIR</small>
+          <h4>13 JAN 1997</h4>
+        </div>
+      </div>
+      <div class=" mx-2 bioData p-2">
+        <div class="text-center">
+          <small class="m-0">NOMOR REKAM MEDIS</small>
+          <h4>001234567</h4>
+        </div>
+      </div>
+      <div class=" mx-2 bioData p-2">
+        <div class="text-center">
+          <small class="m-0">DPJP</small>
+          <h6>dr. Febri Bahari, SpPDm KGEH</h6>
+        </div>
+      </div>
+      <div class="d-flex bioData mx-2 p-1">
+        <div class="py-3 px-2"><i style="font-size: 30px;" class="fas fa-user-circle"></i></div>
+        <div class="text-center">
+          <small class="m-0">Nama (USIA)</small>
+          <h4>NY. MARIANA (23)</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- data Penyakit -->
+    <div class="d-flex">
+      <div class="mx-2" style="width: 50%;">
+        <div class="bioData p-2 my-1">
+          <small class="m-0">KELUHAN UTAMA</small>
+          <h6><b>KU:</b> Muntah berdarah sejak 1 hari yang lalu</h6>
+        </div>
+        <div class="bioData p-2 my-1">
+          <small class="m-0">DIAGNOSIS PRIMER DAN SEKUNDER</small>
+          <h6><b>DP:</b> Esiphageal varices with bleeding (l85.01) ...</h6>
+        </div>
+      </div>
+      <div class="bioData" style="width: 100%;">
+        <div class="d-flex p-2 justify-content-evenly">
+          <div class="d-flex p-2 mt-2">
+            <h6><u>TANDA TANDA VITAL</u></h6>
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <div class="p-2" style="background-color: rgb(208,206,207); border-radius: 10px;">
+            <small class="mx-3">H+3</small>
+          </div>
+          <div style="background-color: white; border-radius: 10px;" class="p-2">
+            <small>Last Update: <b><u>SELASA, 27 OKT 2020, 06.30 WIB</u></b></small>
+          </div>
+        </div>
+        <div class="d-flex justify-content-evenly">
+          <div class="text-center p-1" style="border-radius: 10px; background-color: rgb(67,174,81);">
+            <small>KESADARAN</small>
+            <h6>Compos Mentis</h6>
+          </div>
+          <div class="text-center p-1" style="border-radius: 10px; background-color: rgb(67,174,81);">
+            <small>TEKANAN DARAH</small>
+            <h6>100/70 mmHg</h6>
+          </div>
+          <div class="text-center p-1" style="border-radius: 10px; background-color: rgb(250,66,59);">
+            <small>LAJU NADI</small>
+            <h6>120 Kali/Menit</h6>
+          </div>
+          <div class="text-center p-1" style="border-radius: 10px; background-color: rgb(251,233,54); width: 110px;">
+            <small>LAJU NAFAS</small>
+            <h6>37,3 °C</h6>
+          </div>
+          <div class="text-center p-1" style="border-radius: 10px; background-color: rgb(67,174,81); width: 110px;">
+            <small>SUHU TUBUH</small>
+            <h6>AAAA</h6>
+          </div>
+          <div class="text-center p-1" style="border-radius: 10px; background-color: rgb(251,233,54); width: 110px;">
+            <small>EWS</small>
+            <h6>3</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- nav Data -->
+    <div class="d-flex p-2 justify-content-evenly my-2" style="background-color: rgb(8,41,96); border-radius: 10px;">
+      <div class="navData mx-2 p-1">
+        <h5 class="m-0">Pengkajian Awal</h5>
+      </div>
+      <div class="navData mx-2 p-1 notification">
+        <h5 class="m-0">Lab /  Radiologi</h5>
+        <span class="badge">2</span>
+      </div>
+      <div class="navData mx-2 p-1">
+        <h5 class="m-0">CPPT Ranap</h5>
+      </div>
+      <div class="navData mx-2 p-1 notification1">
+        <h5 class="m-0">Informed Consent</h5>
+        <span class="badge">!</span>
+      </div>
+      <div class="navData mx-2 p-1 notification">
+        <h5 class="m-0">Skrining</h5>
+        <span class="badge">1</span>
+      </div>
+      <div class="navData mx-2 p-1">
+        <h5 class="m-0">Rekonsiliasi Obat</h5>
+      </div>
+      <div class="navData mx-2 p-1">
+        <h5 class="m-0">Resume Medis</h5>
+      </div>
+      <div class="navData mx-2 p-1">
+        <h5 class="m-0"><i class="fas fa-server"></i></h5>
+      </div>
+    </div>
+
+    <div class="d-flex mb-2">
+      <!-- Riwayat Berobat -->
+      <div class="riwayat bioData p-2">
+        <div class="text-center">
+          <small>RIWAYAT BEROBAT</small>
+        </div>
+        <div class="d-flex">
+          <!-- <div class="timeLine"></div> -->
+          <div>
+            <div class="d-flex my-4">
+              <div class="circle d-flex align-items-center mx-2">
+                <div class="circleD"></div>
+              </div>
+              <div>
+                <a href="#"><b>25 Okt 2020</b> IGD-RANAP</a>
+              </div>
+            </div>
+            <div class="d-flex my-4">
+              <div class="circle d-flex align-items-center mx-2">
+                <div class="circleD"></div>
+              </div>
+              <div>
+                <a href="#"><b>25 Okt 2020</b> IGD-RANAP</a>
+              </div>
+            </div>
+            <div class="d-flex my-4">
+              <div class="circle d-flex align-items-center mx-2">
+                <div class="circleD"></div>
+              </div>
+              <div>
+                <a href="#"><b>25 Okt 2020</b> IGD-RANAP</a>
+              </div>
+            </div>
+            <div class="d-flex my-4">
+              <div class="circle d-flex align-items-center mx-2">
+                <div class="circleD"></div>
+              </div>
+              <div>
+                <a href="#"><b>25 Okt 2020</b> IGD-RANAP</a>
+              </div>
+            </div>
+            <div class="d-flex my-4">
+              <div class="circle d-flex align-items-center mx-2">
+                <div class="circleD"></div>
+              </div>
+              <div>
+                <a href="#"><b>25 Okt 2020</b> IGD-RANAP</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- navbar Data Inti -->
+      <div class="mx-2 bg-secondary p-2 d-flex" style="border-radius: 10px;">
+        <div class="navBarInti">
+          <div class="navDataLuar overflow-auto text-center">
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Anamnesis</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Riw. Alergi</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Status Nyeri</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Fungsional</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Resiko Jantung</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Skrining Gizi</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Edukasi</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Pem. Fisik</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Lab</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Radiologi</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Daf. Masalah</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Tatalaksana</h6>  
+            </div>
+            <div class="navDataDlm p-2 my-1">
+              <h6 class="m-0">Riw. Obat</h6>  
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="p-2 mx-2 overflow-auto dataIntiPaien" style="background-color: white; border-radius: 10px; width: 900px;">
+          <div class="text-center">
+            <h5>PENGKAJIAN AWAL PASIEN RAWAT INAP</h5>
+          </div>
+          <div class="d-flex justify-content-between my-3">
+            <div>
+              <div class="d-flex">
+                <input class="mt-1 mx-1" type="radio" name="pick">
+                <label>Autoanamnesis</label>
+              </div>
+              <div class="d-flex">
+                <input class="mt-1 mx-1" type="radio" name="pick">
+                <label>Alloanamnesis: Tn. Rizal (Suami)</label>
+              </div>
+            </div>
+            <div>
+              <div>
+                <label><b>Tanngal Masuk Bangsal:</b> Senin, 26 Okt 2020, 20.00 WIB</label>
+              </div>
+              <div>
+                <label><b>Anamnesis Oleh:</b> dr. Sukma Ayu</label>
+              </div>
+              <div>
+                <b>Print: </b><button class="btn btn-outline-dark"><i class="fas fa-print"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <h6><b>KELUHAN UTAMA:</b><button><i class="fas fa-edit"></i></button></h6>
+            <ul>
+              <li>Muntah berdarah sejak 1 hari yang lalu</li>
+            </ul>
+            <h6><b>RIWAYAT PENYAKIT SEKARANG:</b><button><i class="fas fa-edit"></i></button></h6>
+            <ul>
+              <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto libero impedit, quidem ab magnam laboriosam laudantium totam sit beatae voluptas cumque ex, temporibus assumenda pariatur autem quibusdam amet expedita praesentium.Nisi eligendi distinctio voluptatum quia numquam? Ex non veniam dolore molestiae provident, facilis necessitatibus quis incidunt debitis eaque, amet atque, aperiam quia porro maiores ducimus sequi! Cupiditate at dolorum magni!</li>
+            </ul>
+            <h6><b>RIWAYAT PENYAKIT DULU:</b><button><i class="fas fa-edit"></i></button></h6>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ex. Iusto deleniti reprehenderit cumque? Quos culpa fugiat maiores sunt magni, error delectus mollitia cum natus, tempora eum quibusdam explicabo labore.</li>
+            </ul>
+            <h6><b>RIWAYAT PENYAKIT KELUARGA:</b><button><i class="fas fa-edit"></i></button></h6>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ex. Iusto deleniti reprehenderit cumque? Quos culpa fugiat maiores sunt magni, error delectus mollitia cum natus, tempora eum quibusdam explicabo labore.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
